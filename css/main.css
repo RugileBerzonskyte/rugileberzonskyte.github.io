@@ -3790,40 +3790,7 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
-		.social-buttons {
-    list-style: none !important;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
-}
-
-.social-buttons li {
-    list-style: none !important;
-    margin: 0;
-}
-
-.social-btn {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 14px 26px;
-    border: 2px solid rgba(255,255,255,0.6);
-    border-radius: 30px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    transition: all 0.3s ease;
-}
-
-.social-btn:hover {
-    background-color: rgba(255,255,255,0.15);
-    border-color: #ffffff;
-}
+		
 /* Pagrindinis puslapio fonas */
 body {
     background-image: url("images/oda2.jpg");
@@ -3922,6 +3889,7 @@ body::before {
 .social-buttons a:hover {
     color: #e37682; /* galima pakeisti hover spalvą */
 }
+
 
 
 
