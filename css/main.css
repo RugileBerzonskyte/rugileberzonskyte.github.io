@@ -3790,15 +3790,20 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
-		}
-.social-buttons {
-    list-style: none;
+		.social-buttons {
+    list-style: none !important;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 24px;
     flex-wrap: wrap;
+}
+
+.social-buttons li {
+    list-style: none !important;
+    margin: 0;
 }
 
 .social-btn {
@@ -3815,22 +3820,12 @@ input, select, textarea {
     transition: all 0.3s ease;
 }
 
-.social-btn i {
-    font-size: 1.2em;
-}
-
 .social-btn:hover {
     background-color: rgba(255,255,255,0.15);
     border-color: #ffffff;
 }
 
-/* 📱 Mobilui – gražiai mažėja */
-@media screen and (max-width: 480px) {
-    .social-btn {
-        padding: 12px 20px;
-        font-size: 0.9em;
-    }
-}
+
 
 
 
