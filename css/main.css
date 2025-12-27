@@ -1,6 +1,8 @@
 @import url(fontawesome-all.min.css);
-@import body {
+body {
   font-family: 'Darker Grotesque', Helvetica, Arial, sans-serif;
+	
+@import body 
 }
 
 /*
@@ -31,15 +33,6 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
-body {
-	.image img {
-    width:1200px;
-    height:800;
-}
-	line-height: 1;
-	 background-color:#000000; 
-}
 
 ol, ul {
 	list-style: none;
@@ -133,8 +126,10 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
+	body, input, select, textarea {
+	font-family: 'Darker Grotesque', Helvetica, Arial, sans-serif;
+}
+        font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -3983,6 +3978,29 @@ body::before {
     .img-btn span { font-size: 0.9em; }
     .social-buttons a { font-size: 1.3em; }
 }
+body {
+	line-height: 1;
+	background-color: #000000;
+}
+.image img {
+	width: 1200px;
+	height: 800px;
+	object-fit: cover;
+}
+			.social-icons {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.social-icons li {
+	padding: 0;
+}
+
+
 
 
 
