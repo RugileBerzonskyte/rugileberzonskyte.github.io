@@ -3889,6 +3889,101 @@ body::before {
 .social-buttons a:hover {
     color: #e37682; /* galima pakeisti hover spalvą */
 }
+/* =========================
+   Pagrindinis fonas
+========================= */
+body {
+    background-image: url("../images/oda2.jpg"); /* tavo nuotrauka */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.4); /* juodas overlay */
+    z-index: -1;
+}
+
+/* =========================
+   Image Buttons
+========================= */
+.image-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+.img-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.95em;
+    transition: transform 0.3s;
+}
+
+.img-btn img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.img-btn:hover img {
+    transform: scale(1.05);
+}
+
+.img-btn span {
+    text-align: center;
+}
+
+/* =========================
+   Social Icons
+========================= */
+.social-buttons {
+    list-style: none; /* pašalina taškelius */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* responsive */
+}
+
+.social-buttons li { margin:0; }
+
+.social-buttons a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-buttons a:hover { color: #e37682; }
+
+/* =========================
+   Responsive
+========================= */
+@media screen and (max-width: 600px) {
+    .img-btn img { max-width: 120px; }
+    .img-btn span { font-size: 0.9em; }
+    .social-buttons a { font-size: 1.3em; }
+}
+
 
 
 
