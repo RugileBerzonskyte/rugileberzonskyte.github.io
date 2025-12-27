@@ -3803,7 +3803,7 @@ body {
 ========================= */
 body {
     /* Tavo nuotrauka kaip fonas */
-    background-image: url("../images/oda2.jpg");
+    background-image: url("images/oda2.jpg");
     background-size: cover;       /* Užpildo ekraną */
     background-position: center;  /* Centruoja nuotrauką */
     background-repeat: no-repeat; /* Nepakartoja */
@@ -3893,7 +3893,7 @@ body::before {
    Pagrindinis fonas
 ========================= */
 body {
-    background-image: url("../images/oda2.jpg"); /* tavo nuotrauka */
+    background-image: url("images/oda2.jpg"); /* tavo nuotrauka */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3983,6 +3983,7 @@ body::before {
     .img-btn span { font-size: 0.9em; }
     .social-buttons a { font-size: 1.3em; }
 }
+
 
 
 
